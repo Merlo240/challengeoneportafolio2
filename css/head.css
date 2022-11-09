@@ -9,8 +9,8 @@
     flex-direction: row;
     align-items: center;
  justify-content: space-between;
-    padding-top: .80rem;
-    padding-bottom: .80rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
 
 
     position: absolute;
@@ -38,6 +38,11 @@
 
     margin-left: .7rem;
 }
+.head__logo--titulo{
+    
+    font-size: 1rem;
+    font-weight: 700;
+}
 .head__enlace:nth-child(1){
     display: none;
 }
@@ -54,21 +59,21 @@
 .head__enlace:nth-child(5){
     display: none;
 }
+.head__enlace:nth-child(6){
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
 @media screen and (min-width: 1024px) {
-    .head__enlace:nth-child(1){
+    .head__enlace:nth-child(1),.head__enlace:nth-child(2),.head__enlace:nth-child(3),.head__enlace:nth-child(4),.head__enlace:nth-child(5){
         display: inline-block;
+        font-weight: 500;
+        font-size: 1rem;
+        
     }
-    
-    .head__enlace:nth-child(2){
-        display:  inline-block;
-    }
-    .head__enlace:nth-child(3){
-        display:  inline-block;
-    }
-    .head__enlace:nth-child(4){
-        display:  inline-block;
-    }
-    .head__enlace:nth-child(5){
-        display:  inline-block;
+    .head__enlace:nth-child(6){
+        font-weight: 700;
+        font-size: 1rem;
     }
 }

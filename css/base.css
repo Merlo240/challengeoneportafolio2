@@ -1,0 +1,20 @@
+:root{
+
+    --Color-de-fuente: #464646;
+    --Raleway-principal: 'Raleway', sans-serif;
+    --background-body: #E5E5E5;
+    /* Azul/10% */
+    --background-sobre-mi: #EAF2FD;
+}
+
+
+body{
+    font-family: var(--Raleway-principal);
+ 
+    background-color: var(--background-body);
+}
+
+.container{
+    padding-right:3% ;
+    padding-left: 6%;
+}
